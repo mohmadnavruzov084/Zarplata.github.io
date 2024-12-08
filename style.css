@@ -1,0 +1,61 @@
+body {
+    background: -webkit-linear-gradient(90deg, #615f9c, #6175dd, #735ec6);
+    background: linear-gradient(90deg, #615f9c, #6175dd, #735ec6);
+}
+
+;
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* #text {
+
+    text-align: center;
+    margin-top: 150px;
+    color: #fff;
+    font-family: "Roboto", serif;
+    font-size: 45px;
+
+} */
+
+.calc_zp {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+
+}
+
+.calc_zp-input {
+    width: 300px;
+    height: 30px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+    font-size: 16px;
+}
+
+.calc_zp-input::placeholder {
+    text-align: center;
+}
+
+.calc_zp-btn {
+    width: 160px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+
+.calc_zp-result {
+    color: #fff;
+    font-size: 34px;
+}
